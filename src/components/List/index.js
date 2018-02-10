@@ -5,7 +5,7 @@ export default class List extends Component {
 	render() {
 		return (
 			<ol>
-				{this.props.items.map(item => <Item item={item} />)}
+				{this.props.items.map((item, idx) => <Item index={idx + 1} item={item} />)}
 			</ol>
 		);
 	}
