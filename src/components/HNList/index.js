@@ -7,12 +7,22 @@ export default class HNList extends Component {
 		items: [],
 	};
 
-	componentDidMount() {
-		hn(`${this.props.endpoint}?page=${this.props.page}`)
+	load = page => {
+		hn(`${this.props.endpoint}?page=${page}`)
 			.then(items => {
 				this.setState({ items });
 			})
 			.catch(console.error);
+	};
+
+	componentWillReceiveProps(nextProps) {
+		if (this.props.page !== nextProps.page) {
+			this.load(nextProps.page);
+		}
+	}
+
+	componentDidMount() {
+		this.load(this.props.page);
 	}
 
 	render() {
