@@ -29,37 +29,37 @@ You will first need to have an account on Firebase. To register, visit [https://
 Once registered, install `firebase-tools` available on `npm`.
 
 ```
-npm i -g firebase-tools
+$ npm i -g firebase-tools
 ```
 
 `firebase-tools` contains a wide array of commands to interact with your Firebase account. You'll only need a few for deployment. Before we do that, we'll need to authenticate via the command-line.
 
 ```
-firebase login
+$ firebase login
 ```
 
 A new browser window/tab will pop up and you will need to authenticate via Google SSO. Once authenticated, you can close your browser window and head back to the terminal to initialize your new Firebase app.
 
 ```
-firebase init
+$ firebase init
 ```
 
 This will generate a `.firebaserc` and an empty `firebase.json` file in your current project directory which will be replaced via `preact-cli` auto-generated `firebase.json` config.
 
 ```
-preact serve -- server config
+$ preact serve -- server config
 ```
 
 Once your `firebase.json` is populated by `preact-cli`, simply deploy like so:
 
 ```
-firebase deploy
+$ firebase deploy
 ```
 
 As a convenience, you can also run `npm run deploy` which will rebuild the `firebase.json` and run `firebase deploy`
 
 ```
-npm run deploy
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
