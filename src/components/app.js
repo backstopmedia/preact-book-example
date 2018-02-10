@@ -4,6 +4,7 @@ import Header from './header';
 import Home from '../routes/home';
 import New from '../routes/new';
 import Best from '../routes/best';
+import Item from '../routes/item';
 
 if (module.hot) {
 	require('preact/debug');
@@ -18,6 +19,7 @@ export default class App extends Component {
 					<Home path="/:page?" />
 					<New path="/new/:page?" />
 					<Best path="/best/:page?" />
+					<Item path="/item/:id" />
 				</Router>
 			</div>
 		);
