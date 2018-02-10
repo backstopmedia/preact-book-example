@@ -2,5 +2,7 @@ node_modules
 /build
 /*.log
 *.lock
+firebase.json
+.firebaserc
 
 package-lock.json
