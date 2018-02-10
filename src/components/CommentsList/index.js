@@ -8,8 +8,6 @@ export default class CommentsList extends Component {
 			? style.pad
 			: style.list
 
-		console.log(style.list);
-
 		return (
 			<ol class={cls}>
 				{this.props.comments.map(comment =>
