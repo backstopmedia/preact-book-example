@@ -6,7 +6,7 @@ export default class Item extends Component {
 	render() {
 		const { id, comments_count, points, domain, title, time_ago, user, url } = this.props.item;
 		return (
-			<div class={style.root}>
+			<li class={style.root}>
 				<div class={style.number}>{this.props.index}</div>
 				<div>
 					<h3 class={style.title}><a href={url}>{title}</a></h3>
@@ -21,7 +21,7 @@ export default class Item extends Component {
 						</span>
 					</div>
 				</div>
-			</div>
+			</li>
 		);
 	}
 }
