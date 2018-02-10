@@ -1,22 +1,25 @@
 # preact-book-example
 
-## CLI Commands
+> Yet another Hacker News PWA
 
-``` bash
-# install dependencies
-npm install
+## Development
 
-# serve with hot reload at localhost:8080
-npm run dev
+Serving the development build with hot reload on localhost:8080
 
-# build for production with minification
-npm run build
+```
+$ npm run dev
+```
 
-# test the production build locally
-npm run serve
+Serving a production build locally
 
-# run tests with jest and preact-render-spy 
-npm run test
+```
+$ npm run serve
+```
+
+## Running Tests
+
+```
+$ npm t
 ```
 
 ## Deploying with Firebase
