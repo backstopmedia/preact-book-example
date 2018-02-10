@@ -2,6 +2,8 @@ import { h, Component } from 'preact';
 import { Router } from 'preact-router';
 import Header from './header';
 import Home from '../routes/home';
+import New from '../routes/new';
+import Best from '../routes/best';
 
 if (module.hot) {
 	require('preact/debug');
@@ -22,6 +24,8 @@ export default class App extends Component {
 				<Header />
 				<Router onChange={this.handleRoute}>
 					<Home path="/" />
+					<New path="/new" />
+					<Best path="/best" />
 				</Router>
 			</div>
 		);
