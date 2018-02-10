@@ -1,2 +1,6 @@
-// https://github.com/HackerNews/API#uri-and-versioning
-export const HN_API_URI = 'https://hacker-news.firebaseio.com/v0/';
+// https://github.com/cheeaun/node-hnapi/
+const HN_API_URI = 'https://node-hnapi.herokuapp.com';
+
+export default function hn(endpoint) {
+	return fetch(`${HN_API_URI}${endpoint}`).then(resp => resp.json());
+}
