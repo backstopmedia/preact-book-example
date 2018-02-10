@@ -10,7 +10,7 @@ export default class HNList extends Component {
 	load = page => {
 		hn(`${this.props.endpoint}?page=${page}`)
 			.then(items => {
-				this.setState({ items });
+				this.setState({ items }, this.props.onLoad);
 			})
 			.catch(console.error);
 	};
