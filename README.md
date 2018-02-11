@@ -16,10 +16,24 @@ Serving a production build locally
 $ npm run serve
 ```
 
-## Running Tests
+## Running Unit (Jest) Tests
 
 ```
 $ npm t
+```
+
+## Running End-to-end tests
+
+You need to start the local production build manually prior to running e2e tests.
+
+```
+$ npm run serve
+```
+
+And in another terminal window:
+
+```
+$ npm run test:e2e
 ```
 
 ## Deploying with Firebase

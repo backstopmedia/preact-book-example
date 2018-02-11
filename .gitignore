@@ -6,3 +6,5 @@ firebase.json
 .firebaserc
 
 package-lock.json
+cypress/videos
+.DS_Store
