@@ -1,6 +1,6 @@
 import { h, Component } from 'preact';
 import hn from '../../hn';
-import List from '../List';
+import Item from '../Item';
 
 export default class HNList extends Component {
 	state = {
@@ -27,7 +27,11 @@ export default class HNList extends Component {
 
 	render() {
 		return (
-			this.state.items.length > 0 && <List items={this.state.items} />
+			this.state.items.length > 0 && (
+				<ol>
+					{this.state.items.map((item, idx) => <Item index={idx + 1} item={item} />)}
+				</ol>
+			)
 		);
 	}
 }
