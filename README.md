@@ -19,7 +19,7 @@ $ npm run serve
 ## Running Unit (Jest) Tests
 
 ```
-$ npm t
+$ npm test
 ```
 
 ## Running End-to-end tests
