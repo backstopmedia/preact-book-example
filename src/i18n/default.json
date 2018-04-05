@@ -1,0 +1,14 @@
+{
+  "en": {
+    "best_e9c34252": "Best",
+    "comments_count_0_no_comments_comments_count_1_1_co_56eb6f20": "%{comments_count_0_no_comments} %{comments_count_1_1_comment} %{comments_count_1_comments_count_comments}",
+    "dutch_6d05cee5": "Dutch",
+    "english_c60612e2": "English",
+    "german_3ec99bbb": "German",
+    "item_title_item_domain_2ba8bfc4": "* %{item_title} **(%{item_domain})** *",
+    "more_cf9cc661": "More",
+    "new_13daf639": "New",
+    "preact_hnpwa_f9c867d6": "Preact HNPWA",
+    "top_66e0adb6": "Top"
+  }
+}
