@@ -1,5 +1,7 @@
 # preact-book-example
 
+Check out the book that uses the code in this repo: https://bleedingedgepress.com/progressive-web-apps-with-preact/
+
 > Yet another Hacker News PWA
 
 ## Development
