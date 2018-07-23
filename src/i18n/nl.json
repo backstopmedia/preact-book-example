@@ -1,0 +1,14 @@
+{
+  "nl": {
+    "best_e9c34252": "Beste",
+    "comments_count_0_no_comments_comments_count_1_1_co_56eb6f20": "%{comments_count_0_no_comments} %{comments_count_1_1_comment} %{comments_count_1_comments_count_comments}",
+    "dutch_6d05cee5": "Nederlands",
+    "english_c60612e2": "Engels",
+    "german_3ec99bbb": "Duits",
+    "item_title_item_domain_2ba8bfc4": "* %{item_title} **(%{item_domain})** *",
+    "more_cf9cc661": "Meer",
+    "new_13daf639": "Nieuw",
+    "preact_hnpwa_f9c867d6": "Preact HNPWA",
+    "top_66e0adb6": "Top"
+  }
+}
